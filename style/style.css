@@ -14,6 +14,7 @@ body{
 }
 .container{
     margin: 10px;
+    height: 80vh;
 }
 .play-btn{
     border: none;
@@ -45,4 +46,12 @@ body{
     background-color: black;
     padding: 5px;
     border-radius: 10px;
+}
+footer{
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10vh;
+    font-size: 18px;
+    color: white;
 }
