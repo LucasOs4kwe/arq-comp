@@ -11,13 +11,16 @@ body{
     padding: 0;
     margin: 0;
     user-select: none;
+    background-color: black;
 }
 .container{
-    display: flex;
-    justify-content: center;
+    
 }
 .content{
     margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 5vw 0 5vw;
 }
 table{
     background-color: rgb(109, 109, 109);
@@ -39,4 +42,11 @@ table{
 .field.none input{
     background-color: black;
     display: none;
+}
+.side-content{
+    margin-left: 5vw;
+    background-color: rgb(109, 109, 109);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
 }
