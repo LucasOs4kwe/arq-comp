@@ -23,11 +23,18 @@ table{
     background-color: rgb(109, 109, 109);
     padding: 20px;
     border-radius: 10px;
+    border-spacing: 0;
 }
 .field input{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border: 1.5px solid;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.field input:focus{
+    outline: 0;
 }
 .field.none input{
     background-color: black;
