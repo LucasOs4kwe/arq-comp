@@ -20,7 +20,7 @@ function v1(){
             i++;
         }
     }
-    if(i == 3){
+    if(i == word.length){
         document.getElementById('inpt1').style.backgroundColor = 'green';
         document.getElementById('inpt2').style.backgroundColor = 'green';
         document.getElementById('inpt3').style.backgroundColor = 'green';
@@ -30,7 +30,7 @@ function v1(){
         dis.disabled = true;
         dis2.disabled = true;
         dis3.disabled = true;
-    }else if(i != 3){
+    }else if(i != word.length){
         inpt1.value = '';
         inpt2.value = '';
         inpt3.value = '';
