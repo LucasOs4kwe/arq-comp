@@ -13,9 +13,9 @@ body{
     user-select: none;
     background-color: black;
 }
-.container{
+/* .container{
     
-}
+} */
 .content{
     margin-top: 10vh;
     display: flex;
@@ -35,6 +35,10 @@ table{
     text-align: center;
     padding: 5px;
     border-radius: 5px;
+}
+.field input:disabled{
+    background-color: rgb(255, 99, 71);
+    color: #000;
 }
 .field input:focus{
     outline: 0;
@@ -57,9 +61,10 @@ table{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 15px;
 }
 .btn-question:hover{
-    background-color: rgb(201, 46, 40);
+    background-color: rgb(255, 99, 71);
     color: white;
     transition: 0.5s;
 }

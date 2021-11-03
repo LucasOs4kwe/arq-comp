@@ -27,9 +27,9 @@
                         <td class="field none"><input type="text"></td>
                         <td class="field none"><input type="text"></td>
                         <td class="field none"><input type="text"></td>
-                        <td class="field"><input type="text" maxlength="1"></td>
-                        <td class="field"><input type="text" maxlength="1"></td>
-                        <td class="field"><input type="text" maxlength="1"></td>
+                        <td class="field"><input type="text" maxlength="1" id="inpt1" lucas-mode></td>
+                        <td class="field"><input type="text" maxlength="1" id="inpt2" lucas-mode></td>
+                        <td class="field"><input type="text" maxlength="1" id="inpt3" lucas-mode></td>
                         <td class="field none"><input type="text"></td>
                         <td class="field none"><input type="text"></td>
                     </tr>
@@ -378,43 +378,43 @@
                 </table>
                 <div class="side-content">
                     <div class="questions">
-                        <div id="q1">
+                        <div id="q1" class="question-box">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button type="button" class="btn-question" onclick="v1();">Conferir</button>
+                        </div>
+                        <div id="q2" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q2">
+                        <div id="q3" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q3">
+                        <div id="q4" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q4">
+                        <div id="q5" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q5">
+                        <div id="q6" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q6">
+                        <div id="q7" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q7">
+                        <div id="q8" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q8">
+                        <div id="q9" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
-                        <div id="q9">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <button type="button" class="btn-question">Conferir</button>
-                        </div>
-                        <div id="q10">
+                        <div id="q10" class="question-box">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <button type="button" class="btn-question">Conferir</button>
                         </div>
@@ -425,3 +425,6 @@
     </body>
     <script src="js/app.js"></script>
 </html>
+
+<!-- USAR O PLACEHOLDER COMO DISPLAY NONE, E SÓ APARECER QUANDO O USUÁRIO ACERTAR A CRUZADINHA. COM ISSO,
+O PLACEHOLDER FICARÁ TRAVADO COM O DISABLED, IMPOSSIBILITANDO QUE O USUÁRIO MEXA NO INPUT. -->
