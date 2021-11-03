@@ -33,4 +33,5 @@ function v1(){
             break;
         }
     }
+    // FAZER O BOTÃO SUMIR E APARECER UM ITEM CHECK NO LUGAR QND A RESPOSTA ESTIVER CORRETA
 }
