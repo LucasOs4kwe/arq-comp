@@ -24,16 +24,16 @@ body{
 }
 table{
     background-color: rgb(41, 41, 41);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     border-spacing: 0;
 }
 .field input{
-    width: 30px;
-    height: 30px;
+    width: 2vw;
+    height: 5vh;
     border: 1.5px solid;
     text-align: center;
-    padding: 5px;
+    padding: 0.1vw;
     border-radius: 5px;
 }
 .field input:disabled{
