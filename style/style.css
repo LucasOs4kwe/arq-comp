@@ -10,7 +10,7 @@ ul{
 body{
     padding: 0;
     margin: 0;
-    background-image: url('/assets/img/DampBigCusimanse-size_restricted.gif');
+    background-image: url('../assets/img/DampBigCusimanse-size_restricted.gif');
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: 100%;
