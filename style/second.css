@@ -54,7 +54,7 @@ table{
     padding: 20px;
     text-align: center;
     color: white;
-    width: 150px;
+    width: fit-content;
     height: 500px;
     overflow-y: scroll;
 }
