@@ -20,6 +20,7 @@ body{
     margin-top: 10vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 5vh 5vw 0 5vw;
 }
 table{

@@ -22,6 +22,7 @@ function v1() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_1.disabled = true;
         }
     } else if (i != word.length) {
         for (var p = 0; p < x.length; p++) {
@@ -49,6 +50,7 @@ function v2() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_2.disabled = true;
         }
     } else if (i != word.length) {
         for (var p = 0; p < x.length; p++) {
@@ -75,6 +77,7 @@ function v3() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_3.disabled = true;
         }
     } else if (i != 3) {
         for (var p = 0; p < x.length; p++) {
@@ -101,6 +104,7 @@ function v4() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_4.disabled = true;
         }
     } else if (i != 2) {
         for (var p = 0; p < x.length; p++) {
@@ -127,6 +131,7 @@ function v5() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_5.disabled = true;
         }
     } else if (i != 3) {
         for (var p = 0; p < x.length; p++) {
@@ -153,6 +158,7 @@ function v6() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_6.disabled = true;
         }
     } else if (i != 3) {
         for (var p = 0; p < x.length; p++) {
@@ -179,6 +185,7 @@ function v7() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_7.disabled = true;
         }
     } else if (i != 5) {
         for (var p = 0; p < x.length; p++) {
@@ -205,6 +212,7 @@ function v8() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_8.disabled = true;
         }
     } else if (i != 5) {
         for (var p = 0; p < x.length; p++) {
@@ -231,6 +239,7 @@ function v9() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_9.disabled = true;
         }
     } else if (i != 14) {
         for (var p = 0; p < x.length; p++) {
@@ -257,6 +266,7 @@ function v10() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_10.disabled = true;
         }
     } else if (i != 8) {
         for (var p = 0; p < x.length; p++) {
@@ -283,6 +293,7 @@ function v11() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_11.disabled = true;
         }
     } else if (i != 8) {
         for (var p = 0; p < x.length; p++) {
@@ -309,6 +320,7 @@ function v12() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_12.disabled = true;
         }
     } else if (i != 10) {
         for (var p = 0; p < x.length; p++) {
@@ -335,6 +347,7 @@ function v13() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_13.disabled = true;
         }
     } else if (i != 7) {
         for (var p = 0; p < x.length; p++) {
@@ -361,6 +374,7 @@ function v14() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_14.disabled = true;
         }
     } else if (i != 2) {
         for (var p = 0; p < x.length; p++) {
@@ -387,6 +401,7 @@ function v15() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_15.disabled = true;
         }
     } else if (i != 2) {
         for (var p = 0; p < x.length; p++) {
@@ -413,6 +428,7 @@ function v16() {
         for (var o = 0; o < x.length; o++) {
             x[o].style.backgroundColor = 'green';
             x[o].disabled = true;
+            btn_16.disabled = true;
         }
     } else if (i != 13) {
         for (var p = 0; p < x.length; p++) {
