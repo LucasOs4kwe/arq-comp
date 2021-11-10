@@ -29,12 +29,27 @@ table{
     border-spacing: 0;
 }
 .field input{
-    width: 2vw;
+    width: 2.5vw;
     height: 5vh;
     border: 1.5px solid;
     text-align: center;
     padding: 0.1vw;
     border-radius: 5px;
+    text-transform: uppercase;
+}
+.field .arrow-down::placeholder{
+    color: black;
+    font-size: 18px;
+    position: relative;
+    bottom: 0.8vh;
+}
+.field .arrow-right::placeholder{
+    color: black;
+    font-size: 18px;
+}
+.field .arrow-special::placeholder{
+    color: black;
+    font-size: 13px;
 }
 .field input:disabled{
     background-color: rgb(255, 99, 71);
